@@ -1,0 +1,118 @@
+*,::before,::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width:1440px;
+    margin:0 auto;
+}
+
+.hero{
+    background-color:#08c;
+    background: url(assets/images/background_hero.jpg) 50% 100% no-repeat;
+    background-size:100%;
+    height:500px;
+    max-width: 1440px;
+}
+
+.hero-text-1{
+    margin-top:120px;
+    margin-left:420px;
+    height:80px;
+    margin-right:2px;
+
+}
+
+.hero-text-2{
+    height:80px;
+    margin-top:5px;
+    margin-left:240px;
+
+}
+
+.hero-text-3{
+        height:60px;
+        margin-left:250px;
+margin-bottom:200px;
+margin-top:20px;
+    cursor: pointer;
+}
+
+.iphones{
+    display:flex;
+    max-width: 1440px;
+    margin-top:2px;
+
+}
+
+.iphone-5s{
+    width:364px;
+    height:200px;
+    margin-right:2px;
+
+}
+
+.supplier-mac{
+    height:200px;
+width: 342px;
+}
+
+.menu{
+    margin:0 auto;
+    width:70rem;
+    height:30px;
+    border:1px solid #726B6F;
+    border-radius:5px;
+    position: relative;
+    top:30px;
+    background:linear-gradient(#1E1E1F, #726B6F);
+    
+
+}
+.menu-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    
+}
+
+.menu-items li{
+    list-style: none;
+    font-weight: 500;
+    color:#fff;
+    margin: 2px 0;
+
+
+
+
+}
+.menu-items li img{
+height:20px;
+margin-left:70px;
+
+}
+
+
+
+.menu-items input{
+    border-radius:5px;
+    background:linear-gradient(#1E1E1F, #726B6F);
+    border:1px solid #333;
+    padding-left: 10px;
+    color:white;
+    margin-right:10px;
+}
+
+i{
+    position: absolute;
+    right:164px;
+    top:11px;
+    float:left;
+font-size:10px;
+margin-left:30px;
+}
+
