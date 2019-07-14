@@ -76,6 +76,7 @@ width: 342px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    
 
     
 }
@@ -85,10 +86,10 @@ width: 342px;
     font-weight: 500;
     color:#fff;
     margin: 2px 0;
+}
 
-
-
-
+.menu-items a{
+    text-decoration: none;
 }
 .menu-items li img{
 height:20px;
@@ -116,3 +117,44 @@ font-size:10px;
 margin-left:30px;
 }
 
+.footer-div{
+    display: flex;
+    margin-top:30px;
+    justify-content: space-between;
+}
+
+.right{
+    display: flex;
+    list-style: none;
+ 
+
+
+}
+
+.right li  a{
+    text-decoration: none;
+    color: rgb(0, 136, 204);
+}
+
+.right li{
+    margin-right:10px;
+    font-size:12px;   
+}
+
+.shop-online p a{
+    text-decoration: none;
+    color: rgb(0, 136, 204);
+    font-size:12px;
+}
+
+.shop-online p{
+    font-size:12px;
+}
+
+.copyright-left{
+    padding-top:10px;   
+}
+
+.copyright-left p{
+    font-size:12px;
+}
