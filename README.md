@@ -5,6 +5,9 @@ Used:
 - HTML
 - CSS
 
+# Preview
+![screenshot](./app_screenshot.jpg)
+
 # Authors
 - Adebola Adeniran  [https://github.com/onedebos/]
 
